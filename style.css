@@ -1,0 +1,37 @@
+#author_badge{
+    border: 1px solid #F3F3F3;
+    padding: 20px;
+    background: #F9F9F9;
+    max-width: 300px;
+}
+.author_avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0px 3px 0px 1px #ddd;
+    overflow: hidden;
+}
+.user_name{
+    font: 600 20px sans-serif;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+.user_bio {
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+}
+.user_social_profiles 
+{
+    display: block;
+    overflow: auto;
+    margin: 10px auto; 
+    width: 133px;
+}
+.user_social_profiles li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 0px 10px;
+}
