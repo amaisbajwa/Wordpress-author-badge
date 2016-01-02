@@ -1,5 +1,5 @@
 <div id="author_badge">
-  <div class="author_avatar"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" rel="author"><img src="http://thumbs.dreamstime.com/m/profile-icon-male-avatar-portrait-casual-person-silhouette-face-flat-design-vector-46846328.jpg" /></a></div>
+  <div class="author_avatar"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" rel="author"><?php echo get_avatar( 'get_the_author_meta( 'ID')', 100 ); ?></a></div>
 
 		<div class="user_name"><?php the_author_meta('user_firstname'); ?> <?php the_author_meta('user_lastname'); ?></div>
 		<div class="user_bio"><?php the_author_meta('description'); ?></div>
